@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -66,4 +66,43 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+* {
+  font-family: normal;
+}
+nav {
+  height: 70px;
+  width: 100%;
+  background-color: #f55a5a;
+}
+
+
+.earth--logo {
+  width: 24px;
+}
+
+.Card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.img--container {
+  height: 168px;
+  width: 125px;
+  display: inline-block;
+}
+
+.card--img{
+  width: 100%;
+  height: 100%;
+}
+
+.card--stats {
+  width: 80%;
+  float: right;
+}
+
+.nav--title {
+  color: white;
 }
