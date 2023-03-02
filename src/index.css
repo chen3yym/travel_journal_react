@@ -120,7 +120,7 @@ nav {
   height: 168px;
   margin: 50px;
   margin-left: 0;
-  margin-right: 10%;
+  /* margin-right: 10%; */
 }
 
 .nav--title {
@@ -135,7 +135,7 @@ nav {
 }
 
 .path--img {
-  height: 7px;
+  height: 24px;
   margin-right: 7px;
 }
 
