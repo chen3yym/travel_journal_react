@@ -1,5 +1,8 @@
 # travel_journal_react
 
+- travel journal self-refresh with dictionary data structure
+- new data could be add to data.jsx
+
 # Deploied link with Netlify
 * [Link](https://melodious-trifle-7e68ed.netlify.app)
 # Toolkits used in this project
