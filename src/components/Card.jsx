@@ -1,6 +1,6 @@
 import React from "react";
-import { ReactDOM } from "react";
-
+// import { ReactDOM } from "react";
+import PathLogo from "/src/images/path-logo.svg"
 
 export default function Card(props) {
 
@@ -11,7 +11,7 @@ export default function Card(props) {
             </a>
             <div className="card--stats">
                 <div className="first-line-stats">
-                    <img src="src/images/path-logo.svg" className="path--img"/>
+                    <svg src={PathLogo} className="path--img"/>
                     <h1 className="location">{props.location.toUpperCase()}</h1>
                     <a href={props.googleMapsUrl}><h1 className="link--map">View on Google Maps</h1></a>
                 </div>
